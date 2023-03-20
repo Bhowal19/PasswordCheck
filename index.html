@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>20BCE2875--AYAN BHOWAL--LAB DA 3</title>
+  <link rel="stylesheet" href="i1.css">
+</head>
+
+<body>
+  <div class="q">
+    <pre>
+        • Only the number or characters - weak - display in red color.
+      • Combination of numbers and characters - moderate -display in orange color. 
+      • Combination of numbers, characters with upper case -strong - display in blue color. 
+      • Combination of numbers, characters with upper case and symbol - uncrakable - display in green color.
+      • If the length o Less than 7 characters - Weak. 
+         o Less than 10 characters – Moderate
+         o Less than 16 characters – Good o More than 16 characters – Strong.
+      </pre>
+    
+
+  </div>
+      
+    
+  <div class="container">
+    <header>Password Strength Meter</header>
+    <form action="#">
+      <div class="field">
+        <input onkeyup="trigger()" type="password" placeholder="Enter your password">
+        <span class="showBtn">SHOW</span>
+      </div>
+      <div class="indicator">
+        <span class="weak"></span>
+        <span class="moderate"></span>
+        <span class="good"></span>
+        <span class="strong"></span>
+      </div>
+      <div class="text"></div>
+    </form>
+  </div>
+  <script src="i1.js"></script>
+
+</body>
+
+</html>
